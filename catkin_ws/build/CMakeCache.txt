@@ -265,6 +265,18 @@ _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
+//Value Computed by CMake
+cppPublisher_BINARY_DIR:STATIC=/home/user/catkin_ws/build/cppPublisher
+
+//Value Computed by CMake
+cppPublisher_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/cppPublisher
+
+//Value Computed by CMake
+cppSubscriber_BINARY_DIR:STATIC=/home/user/catkin_ws/build/cppSubscriber
+
+//Value Computed by CMake
+cppSubscriber_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/cppSubscriber
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 
@@ -455,7 +467,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
