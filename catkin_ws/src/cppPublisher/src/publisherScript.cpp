@@ -17,7 +17,7 @@ int main(int ac, char **av) {
 
 
   // Bir rate belirliyoruz. Rate, bir durumun saniyede kaç kere çalışacağını
-  // kontrol etmek için kullanılan bir araçtır. 15 olarak ayarladığım rate 15 Hz
+  // kontrol etmek için kullanılan bir araçtır. 2 olarak ayarladığım rate 2 Hz
   // frekansında yayın yapacaktır.
   ros::Rate rateHz(2);
 
