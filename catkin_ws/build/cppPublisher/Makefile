@@ -226,6 +226,21 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+# Convenience name for target.
 cppPublisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
 	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cppPublisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : cppPublisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
@@ -376,61 +391,46 @@ std_msgs_generate_messages_lisp/fast:
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+cppPublisher/CMakeFiles/publisher_script.dir/rule:
+	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cppPublisher/CMakeFiles/publisher_script.dir/rule
+.PHONY : cppPublisher/CMakeFiles/publisher_script.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+publisher_script: cppPublisher/CMakeFiles/publisher_script.dir/rule
 
-.PHONY : roscpp_generate_messages_cpp
+.PHONY : publisher_script
 
 # fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cppPublisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
+publisher_script/fast:
+	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisher_script.dir/build.make cppPublisher/CMakeFiles/publisher_script.dir/build
+.PHONY : publisher_script/fast
 
-# Convenience name for target.
-cppPublisher/CMakeFiles/publisherScript.dir/rule:
-	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cppPublisher/CMakeFiles/publisherScript.dir/rule
-.PHONY : cppPublisher/CMakeFiles/publisherScript.dir/rule
+src/publisher_script.o: src/publisher_script.cpp.o
 
-# Convenience name for target.
-publisherScript: cppPublisher/CMakeFiles/publisherScript.dir/rule
-
-.PHONY : publisherScript
-
-# fast build rule for target.
-publisherScript/fast:
-	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisherScript.dir/build.make cppPublisher/CMakeFiles/publisherScript.dir/build
-.PHONY : publisherScript/fast
-
-src/publisherScript.o: src/publisherScript.cpp.o
-
-.PHONY : src/publisherScript.o
+.PHONY : src/publisher_script.o
 
 # target to build an object file
-src/publisherScript.cpp.o:
-	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisherScript.dir/build.make cppPublisher/CMakeFiles/publisherScript.dir/src/publisherScript.cpp.o
-.PHONY : src/publisherScript.cpp.o
+src/publisher_script.cpp.o:
+	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisher_script.dir/build.make cppPublisher/CMakeFiles/publisher_script.dir/src/publisher_script.cpp.o
+.PHONY : src/publisher_script.cpp.o
 
-src/publisherScript.i: src/publisherScript.cpp.i
+src/publisher_script.i: src/publisher_script.cpp.i
 
-.PHONY : src/publisherScript.i
+.PHONY : src/publisher_script.i
 
 # target to preprocess a source file
-src/publisherScript.cpp.i:
-	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisherScript.dir/build.make cppPublisher/CMakeFiles/publisherScript.dir/src/publisherScript.cpp.i
-.PHONY : src/publisherScript.cpp.i
+src/publisher_script.cpp.i:
+	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisher_script.dir/build.make cppPublisher/CMakeFiles/publisher_script.dir/src/publisher_script.cpp.i
+.PHONY : src/publisher_script.cpp.i
 
-src/publisherScript.s: src/publisherScript.cpp.s
+src/publisher_script.s: src/publisher_script.cpp.s
 
-.PHONY : src/publisherScript.s
+.PHONY : src/publisher_script.s
 
 # target to generate assembly for a file
-src/publisherScript.cpp.s:
-	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisherScript.dir/build.make cppPublisher/CMakeFiles/publisherScript.dir/src/publisherScript.cpp.s
-.PHONY : src/publisherScript.cpp.s
+src/publisher_script.cpp.s:
+	cd /home/user/catkin_ws/build && $(MAKE) -f cppPublisher/CMakeFiles/publisher_script.dir/build.make cppPublisher/CMakeFiles/publisher_script.dir/src/publisher_script.cpp.s
+.PHONY : src/publisher_script.cpp.s
 
 # Help Target
 help:
@@ -445,6 +445,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rebuild_cache"
+	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
@@ -456,14 +457,13 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... publisherScript"
+	@echo "... publisher_script"
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... src/publisherScript.o"
-	@echo "... src/publisherScript.i"
-	@echo "... src/publisherScript.s"
+	@echo "... src/publisher_script.o"
+	@echo "... src/publisher_script.i"
+	@echo "... src/publisher_script.s"
 .PHONY : help
 
 

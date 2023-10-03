@@ -1,0 +1,8 @@
+<launch>
+    <node name="Anything2" pkg="sub_cpp" type="sub_script" output="screen">
+        <!-- Enter arguments and parameters-->
+    </node>
+    <node name="Anything" pkg="pub_cpp" type="pub_script" output="screen">
+        <!-- Enter arguments and parameters-->
+    </node>
+</launch>

@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "cppSubscriber")
 set(cppSubscriber_VERSION "0.0.0")
-set(cppSubscriber_MAINTAINER "user <user@todo.todo>")
+set(cppSubscriber_MAINTAINER "Adem Berke Nargul <mrb.bn@hotmail.com>")
 set(cppSubscriber_PACKAGE_FORMAT "2")
 set(cppSubscriber_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
 set(cppSubscriber_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")
