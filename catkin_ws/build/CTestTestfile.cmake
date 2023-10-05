@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(calculate_factorial)
 subdirs(new_publisher)
 subdirs(new_subscriber)
 subdirs(pub_cpp)

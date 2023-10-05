@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: calculate_factorial
+Description: Description of calculate_factorial
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
