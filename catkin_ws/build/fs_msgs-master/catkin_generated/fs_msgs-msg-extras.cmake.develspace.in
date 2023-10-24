@@ -1,0 +1,2 @@
+set(fs_msgs_MESSAGE_FILES "/home/adem/catkin_ws/src/fs_msgs-master/msg/ControlCommand.msg;/home/adem/catkin_ws/src/fs_msgs-master/msg/FinishedSignal.msg;/home/adem/catkin_ws/src/fs_msgs-master/msg/GoSignal.msg;/home/adem/catkin_ws/src/fs_msgs-master/msg/Track.msg;/home/adem/catkin_ws/src/fs_msgs-master/msg/Cone.msg;/home/adem/catkin_ws/src/fs_msgs-master/msg/ExtraInfo.msg")
+set(fs_msgs_SERVICE_FILES "/home/adem/catkin_ws/src/fs_msgs-master/srv/Reset.srv")

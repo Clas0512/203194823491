@@ -39,8 +39,8 @@ int main(int ac, char **av) {
     else if (key == 87 || key == 119)
     {
         ROS_INFO("Pressed W!");
-        if (cmd.throttle != 1)
-            cmd.throttle += 1;
+        if (cmd.throttle == 0)
+            cmd.throttle += 0.2;
     }
     else if (key == 83 || key == 115)
     {

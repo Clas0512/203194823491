@@ -1,0 +1,8 @@
+prefix=/home/adem/catkin_ws/install
+
+Name: key_pub
+Description: Description of key_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

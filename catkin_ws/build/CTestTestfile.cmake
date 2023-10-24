@@ -1,12 +1,10 @@
 # CMake generated Testfile for 
-# Source directory: /home/user/catkin_ws/src
-# Build directory: /home/user/catkin_ws/build
+# Source directory: /home/adem/catkin_ws/src
+# Build directory: /home/adem/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs(gtest)
-subdirs(calculate_factorial)
-subdirs(new_publisher)
-subdirs(new_subscriber)
-subdirs(pub_cpp)
-subdirs(sub_cpp)
+subdirs("gtest")
+subdirs("fs_msgs-master")
+subdirs("act_car")
+subdirs("autonom")

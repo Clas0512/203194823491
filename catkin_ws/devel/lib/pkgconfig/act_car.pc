@@ -1,0 +1,8 @@
+prefix=/home/adem/catkin_ws/devel
+
+Name: act_car
+Description: Description of act_car
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
